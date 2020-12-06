@@ -1,0 +1,24 @@
+<!DOCTYPE html>:
+<link rel="stylesheet" href="tformulario.css">
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="get">
+        <input type="text" placeholder="*Introduce tu nombre" name="Nombre" required size="40" maxlength="40" autofocus tabindex="1">
+        <input type="text" placeholder="*Introduce tus apellidos" name="Apellidos" size="40" maxlength="40" required tabindex="2">
+        <fieldset>
+            <legend>Dirección
+</legend>
+            *Calle: <input type="text" name="Calle" placeholder="Escribe tu calle" required size="50" maxlength="150" tabindex="3" > 
+            *Numero:<input type="number" name="numero" placeholder="000" size="15" maxlength="15" required tabindex="4">
+            *Letra: <input type="text" name="Letra" placeholder="Escribe tu letra" required size="15" maxlength="1" tabindex="5">
+            <br>
+            Bloque: <input type="text" name="Bloque" placeholder="Escribe tu bloque"  size="80" maxlength="80" tabindex="6">
+            <br>
+            *Código Postal: <input type="number" name="numero" placeholder="00000" min="01000" max="52999" required tabindex="7">
+            <br>
+            *Localidad: <input type="text" name="Localidad" placeholder="Escribe tu localidad" required size="50" maxlength="150" tabindex="8">
+            <br>
+            *Provincia: <input type="text" name="Provincia" placeholder="Provincia" required size="10" maxlength="40" tabindex="9">
